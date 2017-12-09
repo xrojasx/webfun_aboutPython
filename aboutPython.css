@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#body{
+    width: 970px;
+    height: 1200px;
+}
+
+#header{
+    background-color:#245176;
+    width: 970px;
+    height: 200px;
+
+}
+#headbott{
+    background-color:#245176;
+    width: 970px;
+}
+#content{
+    background-color: white;
+    width: 970px;
+    height: 220px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#contleft, #contright{
+    width: 250px;
+    height: 220px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 12 12 12px;
+    position: relative;
+    top: 7px;
+    left: 92px;
+    border-top: solid #73a7d5;
+    border-width: 4px;
+
+}
+#contright{
+    position: relative;
+    left: 254px;
+}
+#contleft a, #contright a{
+    color: #8ab5db;
+    font-size: 13px;
+}
+#contleft p, #contright p{
+    font-size: 13px;
+}
+#contleft h4, #contright h4{
+    color: black;
+}
+#htleft img{
+    display: inline-block;
+    width: 322px;
+    height: 91px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#textsize{
+    position: relative;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#txt, #nor, #line, #large{
+    position: relative;
+    display: inline-block;
+    bottom: 110px;
+}
+#txt{
+    color: white;
+}
+a{
+    color: yellow;
+}
+#search{
+    display: inline-block;
+    position: relative;
+    margin-right: 60px;
+    bottom: 100px;
+    background: #444444;
+    width: 300px;
+    height: 60px; 
+    left: 650px;
+    border-radius: 10px;
+}
+input{
+    height: 30px;
+    width: 160px;
+    text-align: center;
+}
+#searchbox{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+button{
+    position: relative;
+    height: 28px;
+    width: 37px;
+    background-color: #245176;
+    color: white;
+    border-radius: 5px;
+    margin-left: 862px;
+    bottom: 147px;
+}
+#content{
+    background-color: white;
+}
+#headcenter{
+    height: 50px;
+    width: 800px;
+    background-color: #427cad;
+    margin-left: 100px;
+    margin-top: -70px;
+    border-radius: 10px;
+}
+#mytopnav{
+    text-align: center;
+    display: block;
+}
+#mytopnav li {
+    display: inline;
+}
+#mytopnav li a {
+    position: relative;
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 130%;
+    top: 10px;
+}
+#bottleft{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 100px;
+    bottom: 40px;
+    right: 10px;
+}
+#bottleft ul{
+list-style-position: inside;
+text-align: center;
+color: yellow;
+}
+#bottleft li{
+    padding: 5px;
+}
+#bottleft li a{
+    color: white;
+    font-size: 110%;
+}
+#texttop{
+    width: 600px;
+    height: 350;
+}
+#textbig{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    
+}
+#bottleft, #bottright{
+    display: inline-block;
+}
+p{
+    text-align: center;
+    font-size: 95%;
+}
+h4{
+    text-align: center;
+    line-height: 30px;
+    color: yellow;
+    font-family: arial;
+    font-weight: lighter;
+}
+.white{
+    color: white;
+}
+#bottright{
+    padding-top: 25px;
+}
+#footer{
+    background-color: #245176;
+    width: 970px;
+    height: 110px;
+    text-align: center;
+}
+#footertop{
+    padding-top: 50px;
+}
+#footertop a{
+    color: white;
+    text-decoration: none;
+}
+.fta{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+}
+#footerbott{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 15px;
+}
+ul{
+    list-style-type: square;
+}
